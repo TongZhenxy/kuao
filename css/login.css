@@ -1,0 +1,57 @@
+body{
+	background-color:#1D222B;
+}
+.login{
+	background: url(../img/图层%203%20拷贝@2x.png);
+
+	background-repeat: no-repeat;
+	height: 900px;
+	margin-top: 15px;
+	background-size:85%;
+}
+.formLoginout{
+	float: right;
+	width: 460px;
+	position: relative;
+}
+.formLoginout h2{
+	margin: 0px 50px 30px 80px;
+}
+.formLogin{
+	background-color: #313D53;
+	padding: 30px;
+}
+.label-colors{
+	color:#FFFFFF;
+	font-family:PingFang-SC-Regular;
+	font-size:18px;
+	
+}
+.form-control{
+	/* width: 400px; */
+	color:white;
+	height:45px;		
+	background: #313D53
+}
+#btn{
+	width:400px;
+	height:58px;
+	background:rgba(96,229,243,1);
+	border-radius:8px;
+	font-size: 24px;
+}
+#btn:hover{
+	background: #46b8da
+}
+.btn{
+	background:rgba(96,229,243,1);
+	border-radius:8px;
+	font-size: 24px;
+}
+#emails{
+	width:50% ;
+}
+.form-group{
+	margin-bottom: 25px;
+}
+

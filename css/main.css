@@ -1,0 +1,88 @@
+@font-face{
+    font-family: 'PingFang-SC-Bold';
+    src : url('../fonts/PingFang-SC-Bold.ttf');
+}
+@font-face{
+    font-family: 'PingFang-SC-Light';
+    src : url('../fonts/PingFang-SC-Light.ttf');
+}
+@font-face{
+    font-family: 'PingFang-SC-Medium';
+    src : url('../fonts/PingFang-SC-Medium.ttf');
+}
+body{
+    font-family: 'PingFang-SC-Medium';
+    font-size: 14px;
+	background-color: #F5F6FB;
+    /* background: url(../img/bgContent.png) repeat; */
+}
+.caption{
+	font-size: 14px;
+	width: 340px;
+	/* background-color: pink; */
+	margin: auto;
+}
+.caption1{
+	font-size: 14px;
+	width: 250px;
+	padding-top: 20px;
+	margin: auto;
+}
+.caption3{
+	font-size: 14px;
+	width: 200px;
+	padding-top: 20px;
+	margin: auto;
+}
+.caption2{
+	font-size: 14px;
+	width: 200px;
+	padding-top: 20px;
+	margin: auto;
+}
+.caption h3{margin-bottom: 30px;}
+.text-primary{color: rgba(0,25,55,.5);}
+.text-derective{color: #fff;}
+h1,h3{
+	font-family: 'PingFang-SC-Bold';
+	margin: 50px 0 20px 0;
+}
+h2{
+	font-family: 'PingFang-SC-Medium';	
+	margin: 50px 0 20px 0;
+}
+p{
+	color: #3B3E57;
+	font-family:'PingFang-SC-Medium' ;
+}
+.thumbnail0{
+	height: 650px;
+	padding-top: 60px;
+}
+.thumbnail1{
+	height: 400px;
+	padding-top: 50px;
+}
+.thumbnail2{
+	height: 280px;
+	padding-top: 50px;
+	margin-bottom: 100px;
+	width: 214px;
+}
+.thumbnail2:hover{
+	border: 1px solid #DBDBDB;
+	border-radius: 6px;
+	box-shadow: 0 0 20px;
+	cursor: pointer;
+	-webkit-transition:0.5s all;/* 适用Safari 和 Chrome兼容 */
+    -moz-transition:0.5s all;/* 适用Firefox兼容 */
+    -ms-transition:0.5s all;/* 适用IE9兼容 */
+    -o-transition:0.5s all;/* Opera */
+    transition: .5s;
+    -webkit-transform:scale(1.1);/*在Safari 和 Chrome兼容下还原*/
+    -moz-transform:scale(1.1);/*在Firefox兼容下还原*/
+    -ms-transfrom:scale(1.1);/*在IE9兼容下还原*/
+    -o-transform:scale(1.1);/*在opera兼容下还原*/
+    transform:scale(1.1);/*适用于所有浏览兼容下还原*/
+}
+.thumbnail1 .caption {margin-bottom: 100px;}
